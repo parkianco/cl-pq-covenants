@@ -2,7 +2,7 @@
 
 (asdf:defsystem #:cl-pq-covenants
   :description "Post-quantum covenant script patterns for blockchain transactions"
-  :author "CLPIC Project"
+  :author "Parkian Company LLC"
   :license "MIT"
   :version "0.1.0"
   :serial t
