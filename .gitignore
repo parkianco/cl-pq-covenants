@@ -1,0 +1,29 @@
+# FASL files
+*.fasl
+*.fas
+*.lib
+*.lx64fsl
+*.x86f
+*.abcl
+
+# Editor backups
+*~
+\#*\#
+.#*
+
+# ASDF cache
+.cache/
+
+# SLIME/SLY
+.slime-history
+.sly-mrepl-history
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

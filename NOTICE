@@ -1,0 +1,40 @@
+cl-pq-covenants
+===============
+
+Post-Quantum Covenant Script Patterns for Blockchain Transactions
+
+This software was extracted from the CLPIC project (Common Lisp P2P
+Intellectual Property Chain).
+
+Original source: src/blockchain/pq-covenants.lisp
+
+CRYPTOGRAPHIC NOTICE
+--------------------
+
+The Dilithium signature implementation included in this package is a STUB
+for API compatibility only. It does NOT provide actual cryptographic security.
+
+For production use, you MUST integrate a verified Dilithium implementation
+such as:
+- liboqs (Open Quantum Safe) via CFFI bindings
+- A formally verified implementation
+
+The stub functions will compile and run tests, but signature verification
+always returns true. This is intentional for development and testing purposes.
+
+DEPENDENCIES
+------------
+
+This package is standalone and requires only:
+- SBCL (Steel Bank Common Lisp) or compatible CL implementation
+- ASDF (Another System Definition Facility)
+
+No external libraries are required.
+
+STANDARDS COMPLIANCE
+--------------------
+
+This implementation follows:
+- NIST FIPS 204: ML-DSA (Dilithium) specification
+- BIP-341: Taproot sighash design principles
+- Bitcoin Covenants: OP_CTV-inspired introspection model
