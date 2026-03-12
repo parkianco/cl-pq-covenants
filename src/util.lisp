@@ -85,7 +85,7 @@
 ;;; SHA-256 Implementation (standalone)
 ;;; ============================================================================
 
-(defconstant +sha256-k+
+(defvar +sha256-k+
   #(#x428a2f98 #x71374491 #xb5c0fbcf #xe9b5dba5
     #x3956c25b #x59f111f1 #x923f82a4 #xab1c5ed5
     #xd807aa98 #x12835b01 #x243185be #x550c7dc3
@@ -104,7 +104,7 @@
     #x90befffa #xa4506ceb #xbef9a3f7 #xc67178f2)
   "SHA-256 round constants.")
 
-(defconstant +sha256-init+
+(defvar +sha256-init+
   #(#x6a09e667 #xbb67ae85 #x3c6ef372 #xa54ff53a
     #x510e527f #x9b05688c #x1f83d9ab #x5be0cd19)
   "SHA-256 initial hash values.")
